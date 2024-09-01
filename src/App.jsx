@@ -7,7 +7,6 @@ import Home from './components/Home';
 import Login from "./components/Login";
 import Register from "./components/Register";
 import FavoritesPage from "./components/FavoritesPage";
-import SearchBar from './components/Searchbar';
 import MovieDescription from './components/MovieDescription';
 
 
@@ -29,7 +28,6 @@ const App = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Register />} />
       <Route path="/favourites" element={<FavoritesPage />} />
-      <Route path="/hello" element={<SearchBar />} />
       <Route path="/description/:id" element={<MovieDescription/>} />
     </Routes></Router>
     </div>
